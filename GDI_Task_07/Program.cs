@@ -41,14 +41,10 @@ namespace GDI_Task_07
 
         static void Main(string[] args)
         {
-            int origWidth, origHeight, num;
+            int num;
             int[] mas1 = new int[0];//Объявление массивов
             int[] mas2 = new int[0];
             ConsoleKeyInfo key;
-
-            origWidth = Console.WindowWidth;//Настраиваем окно командной строки
-            origHeight = Console.WindowHeight;
-            Console.SetWindowSize(origWidth / 2, origHeight * 2);
 
             restart:
             Console.Write("Введите размер массива: ");//Ввод размеров массива
